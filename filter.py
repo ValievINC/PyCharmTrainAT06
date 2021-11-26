@@ -17,8 +17,8 @@ def paint(gray, size):
     return arr
 
 
-def output_image(arr):
-    res = Image.fromarray(arr)
+def output_image(array):
+    res = Image.fromarray(array)
     res.save('res.jpg')
 
 
